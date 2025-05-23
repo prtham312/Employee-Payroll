@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee Payroll App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Employee Payroll App</h1>
+  </header>
+
+  <nav class="navbar">
+    <div class="navbar-content">
+      <button id="addUserBtn">Add Employee</button>
+    </div>
+  </nav>
+
+  <section class="dashboard">
+    <div class="card">
+      <h3>Active Users</h3>
+      <p id="activeUsers">0</p>
+    </div>
+    <div class="card">
+      <h3>Total Salary Paid</h3>
+      <p id="totalSalary">0</p>
+    </div>
+    <div class="card">
+      <h3>Payroll Amount</h3>
+      <p id="payrollAmount">0</p>
+    </div>
+  </section>
+
+  <section class="employee-table-section">
+    <table id="employeeTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Salary</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="employeeList"></tbody>
+    </table>
+  </section>
+
+  <!-- Modal -->
+  <div id="formModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="formTitle">Add Employee</h2>
+      <form id="employeeForm">
+        <input type="hidden" id="empId" />
+        <label>Name</label>
+        <input type="text" id="name" required />
+        <label>Email</label>
+        <input type="email" id="email" required />
+        <span id="emailError" class="error"></span>
+        <label>Phone</label>
+        <input type="text" id="phone" pattern="\d{10}" required />
+        <label>Salary</label>
+        <input type="number" id="salary" required />
+        <button type="submit" id="saveBtn">Save</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

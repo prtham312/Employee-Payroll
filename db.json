@@ -1,0 +1,60 @@
+{
+  "employees": [
+    {
+      "name": "Arun Kumar",
+      "email": "arun1@gmail.com",
+      "phone": "4738247892",
+      "salary": "25000",
+      "id": "84e7"
+    },
+    {
+      "id": "b9e0",
+      "name": "Varun",
+      "email": "varun21@gmail.com",
+      "phone": "9143247879",
+      "salary": "55000"
+    },
+    {
+      "id": "98fd",
+      "name": "Anik",
+      "email": "anik02@gmail.com",
+      "phone": "9806521090",
+      "salary": "50000"
+    },
+    {
+      "id": "364e",
+      "name": "Diwas",
+      "email": "diwas21@gmail.com",
+      "phone": "9437823128",
+      "salary": "100000"
+    },
+    {
+      "id": "0a0a",
+      "name": "Shah",
+      "email": "ps01@gmail.com",
+      "phone": "8058240652",
+      "salary": "10000"
+    },
+    {
+      "id": "6e57",
+      "name": "Ojasva",
+      "email": "ojasva212@gmail.com",
+      "phone": "9800933212",
+      "salary": "85000"
+    },
+    {
+      "id": "c4db",
+      "name": "Akshat ",
+      "email": "aj0978@gmail.com",
+      "phone": "9984324321",
+      "salary": "5000"
+    },
+    {
+      "id": "de6a",
+      "name": "Dhruv",
+      "email": "dj@gmail.com",
+      "phone": "9834287282",
+      "salary": "80000"
+    }
+  ]
+}
